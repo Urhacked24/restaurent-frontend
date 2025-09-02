@@ -10,7 +10,7 @@ const HeroSection = () => {
                     <div className="largeBox"><h1 className='title'>Delicious</h1></div>
                     <div className="combineBox">
                         <div className="imageBox">
-                            <img src="/hero1.png" alt="hero1" />
+                            <img src="/pizza1.jpg" alt="hero1" />
                         </div>
                         <div className="textAndLogo">
                             <div className="textWithSvg">
