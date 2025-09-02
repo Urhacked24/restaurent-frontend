@@ -19,7 +19,7 @@ const Reservation = () => {
     const handleReservation = async (e) => {
         e.preventDefault();
         try {
-            const { data } = await axios.post("http://localhost:4000/api/v1/reservations/send", {
+            const { data } = await axios.post("https://restaurent-backend-nu.vercel.app/api/v1/reservations/send", {
                 firstName,
                 lastName,
                 email,
